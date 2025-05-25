@@ -20,17 +20,19 @@ body {
     box-shadow: 0 0 10px #bbb;
   }
   
-  button {
-    font-size: 18px;
-    margin: 10px 15px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-  }
+    button {
+      font-size: 18px;
+      margin: 10px 15px;
+      padding: 10px 24px;
+      border: none;
+      border-radius: 20px;
+      background-color: #2e7d32; /* darker green */
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+      background-color: #1b5e20; /* even darker on hover */
+    }
   
-  button:hover {
-    background-color: #45a049;
-  }
